@@ -33,4 +33,4 @@ async def main():
     await asyncio.gather(*tasks)
     print(f"總耗時: {time.time() - start:.2f} 秒")
 
-asyncio.run(main())
+asyncio.run(main))
